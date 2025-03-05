@@ -1,0 +1,54 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwright-automation-example;navigate-to-playwright-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Navigate to Playwright Website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Launch the Playwright browser",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to \"https://playwright.dev\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the title \"Playwright\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwright-automation-example",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Playwright Automation Example",
+    "tags": [],
+    "uri": "src\\test\\features\\example.feature"
+  }
+]

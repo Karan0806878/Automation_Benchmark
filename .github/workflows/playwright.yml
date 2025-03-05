@@ -1,0 +1,54 @@
+name: Playwright Tests
+
+on:
+  # Configure Manual Trigger
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    env: # Define environment variables here
+      CCFTADMINUSERNAME: ${{ secrets.CCFTADMINUSERNAME }}
+      CCFTPASSWORD: ${{ secrets.CCFTPASSWORD }}
+      CONNECTIONNAME: ${{ secrets.CONNECTIONNAME }}
+      CCFTCONTRACTORUSERNAME: ${{ secrets.CCFTCONTRACTORUSERNAME }}
+      CCFTCONTRACTORNAME: ${{ secrets.CCFTCONTRACTORNAME }}
+      TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm ci
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+      - name: Run CCFT UI tests
+        id: ui-test
+        run: |
+          set +e
+          xvfb-run npm run ui-sanity
+          EXIT_CODE=$?
+          echo "::set-output name=status::$(if [ $EXIT_CODE -eq 0 ]; then echo "Pass"; else echo "Fail"; fi)"
+      - name: Run CCFT API tests
+        id: api-test
+        run: |
+          set +e
+          xvfb-run npm run api-sanity
+          EXIT_CODE=$?
+          echo "::set-output name=status::$(if [ $EXIT_CODE -eq 0 ]; then echo "Pass"; else echo "Fail"; fi)"
+      - name: Send notification to Teams
+        if: always()
+        run:  |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{
+            "text": "Playwright UI tests have completed with status: ${{ steps.ui-test.outputs.status }}\nPlaywright API tests have completed with status: ${{ steps.api-test.outputs.status }}\nWorkflow URL: ${{ github.run_url }}"
+          }' \
+          ${{ secrets.TEAMS_WEBHOOK_URL }}
