@@ -1,0 +1,262 @@
+{
+    "carbonLowcarbUrl": "https://www.lowcarb.test.benchmarkestimating.com/#/login",
+    "NHCarbon2URL": "https://nhcarbon2.test.benchmarkestimating.com/#/login",
+    "carbonLowCarbApi": "https://lowcarb.api.test.carbontool.benchmarkestimating.com",
+    "Projectscreen": "https://nhcarbon2.test.benchmarkestimating.com/#/project/39204",
+    "estimateDescription": "Verify HE-1154 H3",
+    "estimateDescription2": "SubItem h2 without IFT",
+    "estimateDescription3": "Import IFT",
+    "section": "Pre PCF Stage",
+    "projectItemBulkInsertData": {
+        "bulk": [
+            {
+                "PROJECT_ITEM_QTY": 2,
+                "PROJECT_ITEM_COST": 601.96,
+                "PROJECT_ITEMAGGR_CODE": "600_297",
+                "PROJECT_ITEMAGGR_DESC": "Lining new watercourse side slopes with ? 50 mm thick",
+                "PROJECT_SECTION_ID": 312051,
+                "PROJECT_ITEM_ISPROVSUM": 0,
+                "PROJECT_ITEM_PROVSUMAMOUNT": 0,
+                "UNIT_DESCRIPTION": "m2",
+                "PARENT_PROJECT_ITEM_ID": 13125473,
+                "ITEM_LIBRARY_ID": 6558,
+                "PROJECT_ITEM_CARB_A1_A3_FACTOR": 1,
+                "PROJECT_ITEM_CARB_A4_FACTOR": 1,
+                "PROJECT_ITEM_CARB_A5A_FACTOR": 1,
+                "PROJECT_ITEM_CARB_A5W_FACTOR": 1,
+                "PROJECT_ITEM_CARB_WASTE_FACTOR": 1,
+                "PROJECT_ITEM_COMPOSITETYPE": "NORMAL_ITEM"
+            }
+        ]
+    },
+    "projectItemBulkUpdateData": {
+        "bulk": [
+            {
+                "PROJECT_ITEM_ID": 133681,
+                "PROJECT_ITEM_QTY": 206,
+                "PROJECT_ITEM_COST": 15875.2,
+                "PROJECT_ITEM_CARB_A1_A3_FACTOR": 1,
+                "PROJECT_ITEM_CARB_A4_FACTOR": 1,
+                "PROJECT_ITEM_CARB_A5A_FACTOR": 1,
+                "PROJECT_ITEM_CARB_A5W_FACTOR": 1,
+                "PROJECT_ITEM_CARB_WASTE_FACTOR": 1
+            }
+        ]
+    },
+    "projectResourceInsertBulkData": {
+        "bulk": [
+            {
+                "PROJECT_ITEM_ID": 13188402,
+                "PROJECT_RESOURCE_RATE": 2,
+                "PROJECT_RESOURCE_CODE": "PR0209-T5",
+                "UNIT_ID": 46,
+                "PROJECT_RESOURCE_CATEGORY": 3,
+                "RESOURCE_GROUP_ID": 298,
+                "SUBCONTRACTOR_ID": null,
+                "PROJECT_RESAGGR_DESC": "PLANT SAFETY EQUIPMENT MULTI-GAS MONITOR",
+                "ROW_ID": "839d9222-c942-487a-af6e-bebe727cc024",
+                "UNIT_DESC": "hr",
+                "PROJECT_RESOURCE_QTY": 3,
+                "RESOURCE_LIBRARY_ID": 5947,
+                "PROJECT_RESOURCE_CATEGORY_DESC": "PLANT",
+                "SUBCONTRACTOR_DESC": null
+            }
+        ]
+    },
+    "projectResourceBulkUpdateData": {
+        "bulk": [
+            {
+                "PROJECT_RESOURCE_ID": 36919905,
+                "PROJECT_RESOURCE_QTY": null,
+                "PROJECT_RESOURCE_CARB_A1_A3_FACTOR": 99,
+                "PROJECT_RESOURCE_CARB_A4_FACTOR": 5,
+                "PROJECT_RESOURCE_CARB_A5A_FACTOR": 0,
+                "PROJECT_RESOURCE_WASTEFACTOR": 0
+            }
+        ]
+    },
+    "scheduleUpdateData": {
+        "SCHEDULE_STARTDATE_MIN": "2015-06-01T00:00:00.000Z",
+        "SCHEDULE_ENDDATE_MIN": "2015-06-02T00:00:00.000Z",
+        "SCHEDULE_STARTDATE_ML": "2015-06-01T00:00:00.000Z",
+        "SCHEDULE_ENDDATE_ML": "2016-02-28T00:00:00.000Z",
+        "SCHEDULE_STARTDATE_MAX": "2015-06-01T00:00:00.000Z",
+        "SCHEDULE_ENDDATE_MAX": "2016-02-28T00:00:00.000Z"
+    },
+    "createRoleAccessData": [
+        {
+            "ROLEACCESS_ID": 15,
+            "ROLEACCESS_ROLEID": 1,
+            "ROLEACCESS_ACCESSID": 15,
+            "ROLEACCESS_ACCESSLEVELID": 3,
+            "ROLEACCESS_TIMESTAMP": null,
+            "ROLEACCESS_RECORDFLAG": null,
+            "HASHCODE": null
+        }
+    ],
+    "projectSubItemBulkInsertData": {
+        "bulk": [
+            {
+                "PROJECT_ITEMAGGR_CODE": "D6S",
+                "PROJECT_ITEMAGGR_DESC": "Bulldozer D6 (sub item)",
+                "PARENT_PROJECT_ITEM_ID": 13163154,
+                "PROJECT_ITEM_COMPOSITETYPE": "NORMAL_ITEM",
+                "UNIT_DESCRIPTION": "each",
+                "PROJECT_ITEM_QTY": 1,
+                "PROJECT_ITEM_COST": 100,
+                "ITEM_LIBRARY_ID": 8000,
+                "PROJECT_SECTION_ID": 308082,
+                "PROJECT_ITEM_CARB_A1_A3_FACTOR": 0,
+                "PROJECT_ITEM_CARB_A4_FACTOR": 0,
+                "PROJECT_ITEM_CARB_A5A_FACTOR": 0,
+                "PROJECT_ITEM_CARB_A5W_FACTOR": 0,
+                "PROJECT_ITEM_CARB_WASTE_FACTOR": 0
+            }
+        ]
+    },
+    "itemLibraryCarbonUpdateData": {
+        "bulk": [
+            {
+                "ITEM_LIBRARY_ID": 6845,
+                "ITEM_LIBAGGR_CODE": "500_103",
+                "ITEM_LIBAGGR_DESC": ">1800mms <=2100mm diameter piped culvert drain on bed Type S by jacking or thrust boring depth to invert exceeding 2 metres but not exceeding 4 metres, average depth to invert…",
+                "UNIT_DESC": "m",
+                "ITEM_LIBRARY_CARB_A1_A3": 1,
+                "ITEM_LIBRARY_CARB_A4": 2,
+                "ITEM_LIBRARY_CARB_A5A": 3,
+                "ITEM_LIBRARY_CARB_A5W": 4,
+                "ITEM_LIBRARY_CARB_NOTE": null,
+                "ITEM_GROUP_DESC": "Drainage and Service Ducts",
+                "ITEM_CARB_WEIGHTPERUNIT": null,
+                "ITEM_CARB_WASTEFACTOR": 1
+            }
+        ]
+    },
+    "projectAggrIFTCOMPData": {
+        "baseEestimateId": 29634,
+        "estimateRevisionIds": [
+            29645
+        ]
+    },
+    "createContractEstimateData": {
+        "TITLE": "TESTLIB01",
+        "PROJECT_ID": 26697
+    },
+    "createResourceEpdData": {
+        "CARB_EPD_ID": 4,
+        "PROJECT_RESOURCE_ID": 7873426,
+        "CARB_EPD_A1_A3_ISINCL": "Y",
+        "CARB_EPD_A4_ISINCL": "Y",
+        "CARB_EPD_A5_ISINCL": "Y",
+        "CARB_EPD_B1_ISINCL": "N",
+        "CARB_EPD_B2_ISINCL": "N",
+        "CARB_EPD_B3_ISINCL": "N",
+        "CARB_EPD_B4_ISINCL": "N",
+        "CARB_EPD_B5_ISINCL": "N",
+        "CARB_EPD_B6_ISINCL": "N",
+        "CARB_EPD_B7_ISINCL": "N",
+        "CARB_EPD_B8_ISINCL": "N",
+        "CARB_EPD_B9_ISINCL": "N",
+        "CARB_EPD_C1_ISINCL": "N",
+        "CARB_EPD_C2_ISINCL": "N",
+        "CARB_EPD_C3_ISINCL": "N",
+        "CARB_EPD_C4_ISINCL": "N",
+        "CARB_EPD_CODE": "454121",
+        "CARB_EPD_D_ISINCL": "N",
+        "CARB_EPD_DESC": "dummy",
+        "CARB_EPD_EXP_DATE": null,
+        "CARB_EPD_GWP_A1_A3": 1,
+        "CARB_EPD_GWP_A4": 1,
+        "CARB_EPD_GWP_A5": 1,
+        "CARB_EPD_GWP_B1": 1,
+        "CARB_EPD_GWP_B2": 1,
+        "CARB_EPD_GWP_B3": 1,
+        "CARB_EPD_GWP_B4": 1,
+        "CARB_EPD_GWP_B5": 1,
+        "CARB_EPD_GWP_B6": 1,
+        "CARB_EPD_GWP_B7": 1,
+        "CARB_EPD_GWP_B8": 1,
+        "CARB_EPD_GWP_B9": 1,
+        "CARB_EPD_GWP_C1": 1,
+        "CARB_EPD_GWP_C2": 1,
+        "CARB_EPD_GWP_C3": 1,
+        "CARB_EPD_GWP_C4": 1,
+        "CARB_EPD_GWP_D": 1,
+        "CARB_EPD_ISSUE_DATE": null,
+        "CARB_EPD_NOTE": "",
+        "CARB_EPD_OPENEPD_ID": "",
+        "CARB_EPD_PATH": "1",
+        "CARB_EPD_RECORDFLAG": "Y",
+        "CARB_EPD_TIMESTAMP": null,
+        "ESTIMATOR_ID": 1,
+        "HASHCODE": "",
+        "UNIT_ID": 1
+    },
+    "updateResourceEpdData": {
+        "CARB_EPD_ID": 5,
+        "PROJECT_RESOURCE_ID": 7873426,
+        "CARB_EPD_A1_A3_ISINCL": "Y",
+        "CARB_EPD_A4_ISINCL": "Y",
+        "CARB_EPD_A5_ISINCL": "Y",
+        "CARB_EPD_B1_ISINCL": "N",
+        "CARB_EPD_B2_ISINCL": "N",
+        "CARB_EPD_B3_ISINCL": "N",
+        "CARB_EPD_B4_ISINCL": "N",
+        "CARB_EPD_B5_ISINCL": "N",
+        "CARB_EPD_B6_ISINCL": "N",
+        "CARB_EPD_B7_ISINCL": "N",
+        "CARB_EPD_B8_ISINCL": "N",
+        "CARB_EPD_B9_ISINCL": "N",
+        "CARB_EPD_C1_ISINCL": "N",
+        "CARB_EPD_C2_ISINCL": "N",
+        "CARB_EPD_C3_ISINCL": "N",
+        "CARB_EPD_C4_ISINCL": "N",
+        "CARB_EPD_CODE": "454121",
+        "CARB_EPD_D_ISINCL": "N",
+        "CARB_EPD_DESC": "dummye29",
+        "CARB_EPD_EXP_DATE": null,
+        "CARB_EPD_GWP_A1_A3": 1,
+        "CARB_EPD_GWP_A4": 1,
+        "CARB_EPD_GWP_A5": 1,
+        "CARB_EPD_GWP_B1": 1,
+        "CARB_EPD_GWP_B2": 1,
+        "CARB_EPD_GWP_B3": 1,
+        "CARB_EPD_GWP_B4": 1,
+        "CARB_EPD_GWP_B5": 1,
+        "CARB_EPD_GWP_B6": 1,
+        "CARB_EPD_GWP_B7": 1,
+        "CARB_EPD_GWP_B8": 1,
+        "CARB_EPD_GWP_B9": 1,
+        "CARB_EPD_GWP_C1": 1,
+        "CARB_EPD_GWP_C2": 1,
+        "CARB_EPD_GWP_C3": 1,
+        "CARB_EPD_GWP_C4": 1,
+        "CARB_EPD_GWP_D": 1,
+        "CARB_EPD_ISSUE_DATE": null,
+        "CARB_EPD_NOTE": "",
+        "CARB_EPD_OPENEPD_ID": "",
+        "CARB_EPD_PATH": "1",
+        "CARB_EPD_RECORDFLAG": "Y",
+        "CARB_EPD_TIMESTAMP": null,
+        "ESTIMATOR_ID": 1,
+        "HASHCODE": "",
+        "UNIT_ID": 1
+    },
+    "addJourneyLegData": {
+        "bulk": [
+            {
+                "TRANSPORT_CATEGORY": 666,
+                "MODE_OF_TRANSPORT_1": 423,
+                "DISTANCE_1": 50,
+                "MODE_OF_TRANSPORT_2": 667,
+                "DISTANCE_2": 50
+            }
+        ]
+    },
+    "getContractEstimateLibraryContentAssuredData": [
+        {
+            "CONTRACTOR_ESTIMATE_LIBRARY_CONTENT_ID": 1366,
+            "IS_ASSURED": 0
+        }
+    ]
+}

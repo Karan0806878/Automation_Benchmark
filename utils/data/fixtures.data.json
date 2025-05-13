@@ -1,7 +1,8 @@
 {
   "carbonLowcarbUrl": "https://www.lowcarb.test.benchmarkestimating.com/#/login",
-  "NHCarbon2URL": "https://nhcarbon2.test.benchmarkestimating.com/#/login",
+  "NHCarbon2URL": "https://general.qa.webapp.test.benchmarkestimating.com/#/login",
   "carbonLowCarbApi": "https://lowcarb.api.test.carbontool.benchmarkestimating.com",
+  "Projectscreen" : "https://general.qa.webapp.test.benchmarkestimating.com/#/project/5082",
   "estimateDescription": "Verify HE-1154 H3",
   "estimateDescription2": "SubItem h2 without IFT",
   "estimateDescription3": "Import IFT",

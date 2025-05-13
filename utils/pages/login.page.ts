@@ -46,8 +46,8 @@ export class LoginPage {
       await this.submit.click({ timeout: 10000 });
       await this.page.waitForLoadState("load");
     } else if (usertype === "vijay") {
-      await this.email.type(process.env.CCFTCONTRACTORUSERNAME ?? "vijay");
-      await this.pwd.type(process.env.CCFTPASSWORD ?? "Test@2024");
+      await this.email.type(process.env.CCFTCONTRACTORUSERNAME ?? "vijaym");
+      await this.pwd.type(process.env.CCFTPASSWORD ?? "Welcome123");
       await this.submit.click({ timeout: 10000 });
       await this.page.waitForLoadState("load");
     }
